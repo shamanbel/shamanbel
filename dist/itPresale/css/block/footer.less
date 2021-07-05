@@ -1,0 +1,60 @@
+//main: ..//style.less
+.footer{
+    background-color: @d_Gray;
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: space-between;
+      @media @tablet{
+        padding: 3rem 1rem;
+          }
+      @media @cell{
+        padding: 3rem .5rem;
+          display: block;
+          }
+}
+.footer__inner__title{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.footer__inner__title--1{
+    margin-top: 6px;
+
+}
+.footer_inner_item{
+    margin-top: 2.2rem;
+    margin-bottom: -1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       @media @tablet{
+        display: block;
+    }}
+.footer__inner{
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-left: 1rem;
+     color: @l_Gray;
+      @media @tablet{
+        font-size: .8rem;
+
+         }
+
+    &:first-child{
+        min-width: 13rem;
+        @media @tablet{
+        min-width: 0;
+        }}
+    .link_email--1{
+        margin-right: 0;
+        color: @l_Gray;
+    }
+}
+
+li{
+    list-style: none;
+    line-height: 1.8rem;
+}
+
+
